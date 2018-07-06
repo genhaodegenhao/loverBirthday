@@ -1,0 +1,33 @@
+/**index.wxss**/
+.pageOne {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+swiper {
+  height: 100%;
+}
+.slide-image {
+  width: 100%;
+  height: 100%;
+}
+.inner1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.box {
+  width: 200rpx;
+  height: 200rpx;
+  background: red;
+}
+.inner2 {
+  position: absolute;
+  right: 30rpx;
+  top: 200rpx;
+}
+.box2{
+  width: 100rpx;
+  height: 100rpx;
+  background: blue;
+}

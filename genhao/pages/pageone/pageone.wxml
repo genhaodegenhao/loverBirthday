@@ -1,0 +1,12 @@
+<view class="pageOne">
+    <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrl}}" wx:key="1">
+            <swiper-item>
+                <image src="{{item}}" class="slide-image"/>
+            </swiper-item>
+      </block>
+    </swiper>
+    <include src="./inner1/inner1.wxml" /> 
+    <include src="./inner2/inner2.wxml" /> 
+</view>

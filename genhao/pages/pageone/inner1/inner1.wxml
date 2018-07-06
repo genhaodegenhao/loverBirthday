@@ -1,0 +1,3 @@
+<view class="inner1">
+    <view animation="{{animationData}}" class="box"></view>
+</view>

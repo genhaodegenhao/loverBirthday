@@ -1,0 +1,4 @@
+<view class="pageOne">
+    pagethree
+    <button type="primary" bindtap="nextPage">下一步</button> 
+</view>
